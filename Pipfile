@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 django = "==3.2.8"
 decouple = "*"
+cloudinary = "*"
+django-bootstrap4 = "*"
 
 [dev-packages]
 
