@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+#home{
+    background-image: radial-gradient(rgb(55, 66, 66), rgb(29, 48, 29), rgb(43, 97, 82));
+    height: 100vh;
+}
+
+
+#intro{
+    margin-top: 8%;
+    border: solid white 2px;
+    height: 60vh;
+    color: white;
+    background-color: rgba(18, 207, 135, 0.399);
+    border-radius: 1%;
+    padding: 2%;
+}
+
+#test{
+    font-family: 'Ultra', serif;
+}
+
+#profile{
+    max-width: 100%;
+    height: 100%;
+    margin-top: -15%;
+}
