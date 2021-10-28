@@ -1,27 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 #home{
-    background-image: radial-gradient(rgb(55, 66, 66), rgb(29, 48, 29), rgb(43, 97, 82));
+    background-image: radial-gradient(rgb(41, 100, 100), rgb(92, 128, 92), rgb(128, 145, 128));
     height: 100vh;
 }
 
+nav{
+    font-family: 'Abril Fatface', cursive;
+}
+
 #display{
-    padding: 2%;
+    padding: 1%;
 }
 
 /* #master{
-    padding: 2%;
-    justify-content: space-between;
+    
 } */
 
 #intro{
     margin-top: 8%;
     border: solid white 2px;
     height: 60vh;
-    color: white;
-    background-color: rgba(18, 207, 135, 0.199);
+    color: green;
+    background-color: rgb(194, 216, 191);
+    /* background-color: rgba(18, 207, 135, 0.199); */
     border-radius: 1%;
     padding: 2%;
+}
+
+#links{
+    display: flex;
+    justify-content: space-between;
 }
 
 #test{
@@ -35,7 +44,33 @@
 }
 
 #projo{
-    background-image: radial-gradient(rgb(55, 66, 66), rgb(29, 48, 29), rgb(43, 97, 82));
-    height: 100vh;
+    background-image: radial-gradient(rgb(58, 100, 75), rgb(92, 128, 92), rgb(128, 145, 128));
+    height: auto;
+    color: black;
+}
+
+#prjo{
+    background-image: radial-gradient(rgb(58, 100, 75), rgb(92, 128, 92), rgb(128, 145, 128));
+    height: auto;
     color: white;
+}
+
+#url{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin: 1%;
+    box-shadow: 0 8px 8px -4px lightblue;
+    
+}
+
+#detailed{
+    margin-top: 5%;
+}
+
+#king{
+    margin-top: 5%;
 }
