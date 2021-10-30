@@ -152,3 +152,20 @@ cloudinary.config(
     api_key = os.environ.get('api_key'),
     api_secret = os.environ.get('api_secret')
 )
+
+#add
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
+        },
+    },
+}
