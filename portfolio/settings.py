@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-10*jq%kh+=nr)7()!vvu3+7c01wxu@33b)gxxu8+*97*@8m*4e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEGUG')
+DEBUG = True
 
 PRODUCTION = os.environ.get('PRODUCTION')
 
@@ -136,10 +136,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_ROOT = BASE_DIR/'static'
 STATIC_URL = '/static/'
+MEDIA_URL = '/images/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
+MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -148,9 +152,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 cloudinary.config(
-    cloud_name = os.environ.get('cloud_name'),
-    api_key = os.environ.get('api_key'),
-    api_secret = os.environ.get('api_secret')
+    cloud_name = 'kingbin',
+    api_key = "797142459758983", 
+    api_secret = "cdIGxFq88jZuy8QjY-N9Pq22PSI" 
 )
 
 #add
