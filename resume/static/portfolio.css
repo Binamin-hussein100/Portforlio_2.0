@@ -59,7 +59,7 @@ nav{
     border-image: linear-gradient(2deg, rgb(255, 255, 255), rgb(0, 0, 0)) 1;
     height: 100%;
     color: black;
-    background-color: rgba(194, 216, 191,0.2);
+    background-color: rgba(115, 139, 139, 0.2);
     border-radius: 1%;
     padding: 2%;
 }
