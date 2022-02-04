@@ -72,10 +72,11 @@ nav{
 }
 
 #projo{
-    background-image: radial-gradient(rgba(146, 107, 107, 0.452), rgb(96, 104, 96), rgb(240, 240, 240));
+    /* background-image: radial-gradient(rgba(146, 107, 107, 0.452), rgb(96, 104, 96), rgb(240, 240, 240)); */
     height: auto;
     color: white;
     padding: 2%;
+    background-color: white;
 }
 
 #prjo{
