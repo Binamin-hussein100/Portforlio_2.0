@@ -44,8 +44,15 @@ nav{
     background-color: rgba(115, 139, 139, 0.2);
     padding: 2%;
     border-radius: 2%;
+    height: auto;
 
 }
+
+#detailed{
+    margin-top: 1%;
+    height: auto;
+}
+
 
 #logs{
     width: 20%;
@@ -89,10 +96,6 @@ nav{
     
 }
 
-#detailed{
-    margin-top: 1%;
-    height: 50%;
-}
 
 #king{
     margin-top: 5%;
