@@ -65,7 +65,7 @@ nav{
 
 #projo{
     background-image: radial-gradient(rgba(146, 107, 107, 0.452), rgb(96, 104, 96), rgb(0, 0, 0));
-    height: 92vh;
+    height: auto;
     color: white;
 }
 
