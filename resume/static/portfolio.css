@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 #home{
-    background-image: radial-gradient(rgba(192, 24, 24, 0.452), rgb(96, 104, 96), rgb(0, 0, 0));
+    background-image: radial-gradient(rgba(192, 24, 24, 0.452), rgb(96, 104, 96), rgb(227, 199, 186));
     height: 92vh;
 }
 
