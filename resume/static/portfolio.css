@@ -144,7 +144,9 @@ nav{
 
 #picture{
     border: 10px #e3c7ba solid;
-    border-radius: 40%;
+    border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
     padding: 2%;
     box-shadow: 0 8px 8px 0px rgb(92, 89, 74);
 
