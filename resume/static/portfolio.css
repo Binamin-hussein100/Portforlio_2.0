@@ -57,8 +57,11 @@ nav{
     color: black;
     height: auto;
     box-shadow: -5px 3px 10px 3px rgba(77, 75, 75, 0.363);
--webkit-box-shadow: -5px 3px 20px 5px rgba(92, 92, 92, 0.863);
--moz-box-shadow: -5px 3px 20px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: -5px 3px 20px 5px rgba(92, 92, 92, 0.363);
+    -moz-box-shadow: -5px 3px 20px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 3%;
+    padding: 3%;
+
 }
 
 #tailin{
