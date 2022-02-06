@@ -139,11 +139,15 @@ nav{
 
 #picture{
     border: 10px #e3c7ba solid;
-    border-radius: 50%;
+    border-radius: 40%;
     padding: 2%;
-    box-shadow: 0 8px 8px 0 rgb(92, 89, 74);
+    box-shadow: 0 8px 8px 4px rgb(92, 89, 74);
 
     
+}
+
+li{
+    list-style: none;
 }
 
 #listy{
