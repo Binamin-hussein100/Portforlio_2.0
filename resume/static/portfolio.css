@@ -138,8 +138,9 @@ nav{
 }
 
 #picture{
-    border: 4px groove;
-    border-image: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255)) 1 0;
+    border: 4px #e3c7ba groove;
+
+    
 }
 
 /* navbar */
