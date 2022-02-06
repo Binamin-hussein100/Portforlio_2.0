@@ -104,7 +104,7 @@ nav{
 }
 .card{
     margin: 1%;
-    box-shadow: 1 1px 1px 1px rgb(74, 74, 75);
+    box-shadow: 3 3px 6px 6px rgb(74, 74, 75);
     background-color: #e3c7ba;
     
 }
