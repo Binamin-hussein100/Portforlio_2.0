@@ -55,9 +55,9 @@ nav{
 #detailed{
     margin-top: 1%;
     height: auto;
-    box-shadow: -5px 3px 20px 5px rgba(138, 131, 115, 0.3);
-    -webkit-box-shadow: -5px 3px 20px 5px rgba(209, 204, 158, 0.3);
-    -moz-box-shadow: -5px 3px 20px 5px rgba(209, 197, 145, 0.3);
+    box-shadow: -5px 3px 20px 5px rgba(255, 255, 255, 0.863);
+-webkit-box-shadow: -5px 3px 20px 5px rgba(221, 207, 207, 0.863);
+-moz-box-shadow: -5px 3px 20px 5px rgba(255,255,255,0.3);
 }
 
 #tailin{
